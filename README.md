@@ -18,18 +18,25 @@ We support **GET** and **POST** HTTP methods. We support three ways of passing p
 
 Use this method to shorten one or more links.
 
+**Headers:**
+| Key | Value |
+| --- | --- |
+| Content-Type | `application/json` |
+
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | token | `string` | Token generated during registration |
 | links | `array` | Array of links for shortening |
 
-Example request (200OK):
+Example **#1** `(200OK)`:
+__Request:__
 ```bash
 curl --location --request GET "https://api.rln.uz/createLink?token=TOKEN&links=LINKS" \
   --header "Content-Type: application/json"
 ```
  
- Example response (200OK):
+__Response:__
 ```json
 {
   "ok": true,
