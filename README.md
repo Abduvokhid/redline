@@ -35,13 +35,13 @@ Use this method to shorten one or more links.
 
 **Example:**
 
-__Request:__
+_Request:_
 ```bash
 curl --location --request GET "https://api.rln.uz/createLink?token=TOKEN&links=LINKS" \
   --header "Content-Type: application/json"
 ```
  
-__Response:__
+_Response:_
 ```json
 {
   "ok": true,
