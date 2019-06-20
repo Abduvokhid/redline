@@ -33,7 +33,7 @@ Use this method to shorten one or more links.
 | links | `array` | Array of links for shortening |
 
 
-Example **#1** `(200OK)`:
+**Example:**
 
 __Request:__
 ```bash
