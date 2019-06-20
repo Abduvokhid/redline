@@ -12,10 +12,14 @@
   <script src="https://cdn.jsdelivr.net/npm/docute@3/dist/docute.js"></script>
   <script>
     docute.init({
-  announcement: {
-    type: 'primary', // warning | danger | success | primary
-    html: 'This is new documentation page!'
-  }
+  icons: [
+    {
+      label: 'Hovered!',
+      svgId: 'my-icon',
+      svgClass: 'my-icon-class',
+      link: 'http://blah.blah'
+    }
+  ]
 })
   </script>
 </body>
