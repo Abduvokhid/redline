@@ -34,6 +34,7 @@ Use this method to shorten one or more links.
 
 
 Example **#1** `(200OK)`:
+
 __Request:__
 ```bash
 curl --location --request GET "https://api.rln.uz/createLink?token=TOKEN&links=LINKS" \
