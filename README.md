@@ -1,4 +1,4 @@
-## URL shortener API
+## RLN (RedLine) API
 
 More coming soon...
 
