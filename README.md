@@ -1,4 +1,4 @@
-## RLN URL shortener API
+## URL shortener API
 
 More coming soon...
 
