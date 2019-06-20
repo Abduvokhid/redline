@@ -19,15 +19,19 @@ We support **GET** and **POST** HTTP methods. We support three ways of passing p
 Use this method to shorten one or more links.
 
 **Headers:**
+
 | Key | Value |
 | --- | --- |
 | Content-Type | `application/json` |
 
+
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | token | `string` | Token generated during registration |
 | links | `array` | Array of links for shortening |
+
 
 Example **#1** `(200OK)`:
 __Request:__
