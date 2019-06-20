@@ -11,7 +11,12 @@
   <div id="app"></div>
   <script src="https://cdn.jsdelivr.net/npm/docute@3/dist/docute.js"></script>
   <script>
-    docute.init()
+    docute.init({
+  announcement: {
+    type: 'primary', // warning | danger | success | primary
+    html: 'This is new documentation page!'
+  }
+})
   </script>
 </body>
 </html>
